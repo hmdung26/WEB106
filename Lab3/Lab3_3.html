@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+        }
+        .header {
+            padding: 50px;
+            text-align: center;
+            background: #dbdcde;
+            color: rgb(237, 5, 5);
+        }
+        .navbar {
+            display: flex;
+            background-color: #dc8d8d;
+        }
+        .navbar a {
+            color: aliceblue;
+            padding: 15px 15px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .navbar a:hover {
+            background-color: blue;
+            color: rgb(241, 5, 5);
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .side {
+            flex: 25%;
+            background-color: rgb(219, 212, 203);
+            padding: 20px;
+        }
+        .main {
+            flex: 75%;
+            background-color: azure;
+            padding: 20px;
+        }
+        .fimg {
+            background-color: #c9c5c5;
+            width: 100%;
+            padding: 20px;
+        }
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #dc8d8d;
+        }
+        @media screen and (max-width: 800px) {
+            .row, .navbar {
+                flex-direction: column;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div style="background-color: blanchedalmond; padding: 10px;">
+        <h3 style="text-align: center;">Header Day</h3>
+    </div>
+    <!-- Header -->
+    <div class="header">
+        <h1>Bao Dan Tri</h1>
+        <p>Website tin tuc</p>
+    </div>
+    <!-- Menu -->
+    <div class="navbar">
+        <a href="./Lab3_1.html">Link Lab 1</a>
+        <a href="./Lab3_2.html">Link Lab 2</a>
+        <a href="./Lab3_3.html">Link Lab 3</a>
+        <a href="#">Link 4</a>
+        <a href="#">Link 5</a>
+    </div>
+    <!-- Content -->
+    <div class="row">
+        <div class="side">
+            <h2>Gioi thieu</h2>
+            <h3>Trang 1</h3>
+            <p></p>
+            <div class="fimg" style="height: 60px;">Image</div><br/>
+            <div class="fimg" style="height: 60px;">Image</div><br/>
+            <div class="fimg" style="height: 60px;">Image</div><br/>
+            <div class="fimg" style="height: 60px;">Image</div><br/>
+        </div>
+        <!-- main -->
+        <div class="main">
+            <h2>Báo chí thế giới dự đoán kết quả trận tuyển Việt Nam đụng độ Indonesia</h2>
+            <h5>Vào lúc 20h30 tối nay (21/3), đội tuyển Việt Nam sẽ bước vào trận đấu quan trọng ở vòng loại thứ hai World Cup 2026 gặp Indonesia trên sân Bung Karno. Đội chủ nhà đang rất tự tin giành chiến thắng trước "Những chiến binh sao vàng" sau khi thắng 1-0 ở Asian Cup 2023.
+                Báo chí thế giới dự đoán kết quả trận tuyển Việt Nam đụng độ Indonesia - 1</h5>
+            <div class="fimg" style="height: 200px;">Image</div>
+            <p>Điều đáng nói, nhiều tờ báo trên thế giới đã dự đoán Indonesia giành chiến thắng. Tờ Sport Mole (Anh) nhận định: "Indonesia đang xếp thứ 142 thế giới. Sau khi làm nên lịch sử ở Asian Cup 2023, đội bóng này bắt đầu tập trung cho mặt trận vòng loại thứ hai World Cup 2026, nơi họ khởi đầu chậm chạp. </p>
+            <br/>
+            <h2>Bộ phận của lợn tích tụ nhiều chất độc, nguy cơ nhiễm khuẩn cao</h2>
+            <h5>(Dân trí) - Người dân nên mua lòng lợn tại những địa điểm uy tín, lựa chọn lòng từ các con vật khỏe mạnh, và sơ chế thật sạch trước khi chế biến. Dù là ruột non hay ruột già, cũng nên hạn chế lượng tiêu thụ.</h5>
+            <div class="fimg" style="height: 200px;">Image</div>
+            <p>Lòng lợn là một món ăn khoái khẩu với nhiều người Việt, nhưng cũng đồng thời tiềm ẩn những tác động tiêu cực đối với sức khỏe.
+
+                BS Lê Văn Thiệu, Khoa Nhiễm khuẩn tổng hợp, Bệnh viện Bệnh Nhiệt đới Trung ương, phân tích trong phần ruột non của lợn chứa nhiều dưỡng chất như: protein, chất béo, vitamin và khoáng chất, song cũng không thể phủ nhận sự hiện diện của các chất độc hại từ môi trường hoặc thức ăn của lợn.</p>
+            <br/>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <h2>Footer</h2>
+    </div>
+</body>
+</html>
